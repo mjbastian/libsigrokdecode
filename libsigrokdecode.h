@@ -22,7 +22,7 @@
 #ifndef LIBSIGROKDECODE_SIGROKDECODE_H
 #define LIBSIGROKDECODE_SIGROKDECODE_H
 
-#include <Python.h> /* First, so we avoid a _POSIX_C_SOURCE warning. */
+#include <python3.2/Python.h> /* First, so we avoid a _POSIX_C_SOURCE warning. */
 #include <stdint.h>
 #include <glib.h>
 
